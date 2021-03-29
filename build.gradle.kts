@@ -22,8 +22,8 @@ dependencies {
   testImplementation(files("libs/approvaltests-util-9.5.1-SNAPSHOT.jar"))
 
   // Jqwik
-  testImplementation("net.jqwik:jqwik-api:1.3.10")
-  testRuntimeOnly("net.jqwik:jqwik-engine:1.3.10")
+  testImplementation("net.jqwik:jqwik-api:1.5.0")
+  testRuntimeOnly("net.jqwik:jqwik-engine:1.5.0")
 }
 
 tasks.test {
