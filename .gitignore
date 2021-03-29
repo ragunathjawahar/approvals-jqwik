@@ -1,0 +1,9 @@
+.gradle/
+.idea/
+build/
+
+# macOS
+.DS_Store
+
+# Jqwik
+.jqwik-database
